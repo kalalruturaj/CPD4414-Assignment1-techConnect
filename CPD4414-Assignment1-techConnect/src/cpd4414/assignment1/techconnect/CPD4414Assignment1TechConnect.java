@@ -45,14 +45,14 @@ public class CPD4414Assignment1TechConnect {
         }
         
         // Added by Gurvinder Kaur
-        // This logic is for double as well as Random Number
         
-            for(int j=0;j<number;j++){
-            
-           power=power.concat(str);
-            
+        
+           if(number==2){
+            power = str+str;
+           
         }
-                   
+           
+                
         return power;
         
         

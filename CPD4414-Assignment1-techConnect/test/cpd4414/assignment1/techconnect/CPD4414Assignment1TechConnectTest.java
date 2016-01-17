@@ -5,6 +5,7 @@
  */
 package cpd4414.assignment1.techconnect;
 
+import java.util.Random;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -91,4 +92,6 @@ public class CPD4414Assignment1TechConnectTest {
         assertEquals(expResult, result);
        }
     
+       
+     
 }
