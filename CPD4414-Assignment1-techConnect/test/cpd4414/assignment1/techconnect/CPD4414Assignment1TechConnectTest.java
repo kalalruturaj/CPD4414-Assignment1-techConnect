@@ -93,5 +93,28 @@ public class CPD4414Assignment1TechConnectTest {
        }
     
        
-     
+       // Test for Random number
+       @Test
+      public void findRandom(){
+           System.out.println("findRandom");
+           Random rn = new Random();
+           int i = rn.nextInt(10)+1;
+           System.out.println(i);
+            String str ;
+              String expResult = "";
+              str = "bob";
+
+
+           for(int j=0;j<i;j++){
+
+                    expResult = expResult.concat(str);
+                  
+
+           }
+            String result = CPD4414Assignment1TechConnect.stringPower(str, i);
+                    assertEquals(expResult, result);
+                    System.out.println("Select from random number: \n"+result);
+                    System.out.println(result);
+
+      }
 }

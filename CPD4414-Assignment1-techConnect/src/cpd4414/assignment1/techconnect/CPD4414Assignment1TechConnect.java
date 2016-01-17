@@ -52,7 +52,16 @@ public class CPD4414Assignment1TechConnect {
            
         }
            
-                
+          // Code for random number 
+           
+          if(number !=1 && number!=2){
+                for(int j=0;j<number;j++){
+
+                   power =power.concat(str);
+
+                }
+          }
+                   
         return power;
         
         
