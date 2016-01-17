@@ -43,8 +43,18 @@ public class CPD4414Assignment1TechConnect {
             power = str;
            
         }
-                     
+        
+        // Added by Gurvinder Kaur
+        // This logic is for double as well as Random Number
+        
+            for(int j=0;j<number;j++){
+            
+           power=power.concat(str);
+            
+        }
+                   
         return power;
+        
         
     }
     
