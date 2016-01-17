@@ -36,7 +36,13 @@ public class CPD4414Assignment1TechConnect {
         
         if(number<1){
             power= null;
-        }               
+        }     
+        
+        // Added by Cyril dsouza
+        if(number==1){
+            power = str;
+           
+        }
                      
         return power;
         
