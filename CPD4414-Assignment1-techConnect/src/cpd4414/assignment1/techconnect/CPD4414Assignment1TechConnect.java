@@ -7,7 +7,7 @@ package cpd4414.assignment1.techconnect;
 
 /**
  *
- * @author c0655987
+ * @author Ruturaj Kalal
  */
 public class CPD4414Assignment1TechConnect {
 
@@ -27,12 +27,21 @@ public class CPD4414Assignment1TechConnect {
         
         
         // Added by Gurvinder kaur
-                     if(str==""){
+        if(str==""){
             System.out.println("Empty String");
             power = str;
         } 
+            
+        // Added by Ruturaj Kalal
+        
+        if(number<1){
+            power= null;
+        }               
+                     
         return power;
         
     }
+    
+    
     
 }
