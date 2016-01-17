@@ -18,6 +18,14 @@ public class CPD4414Assignment1TechConnect {
         // TODO code application logic here
     }
     
-    
+ /**
+ *
+ * @author Cyril Dsouza
+ */
+    public static String stringPower(String str, int number){
+        String power = "";
+        
+        return power;
+    }
     
 }
