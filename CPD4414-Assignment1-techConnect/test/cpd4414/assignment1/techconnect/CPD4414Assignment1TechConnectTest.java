@@ -46,5 +46,37 @@ public class CPD4414Assignment1TechConnectTest {
         String result = CPD4414Assignment1TechConnect.stringPower(str, i);
         assertEquals(expResult, result);
     }
+        
+        // Test Created by Ruturaj Kalal.
+        
+          @Test 
+     public void testLessThanOneShouldReturnNull(){
+         System.out.println("testLessThanOneShouldReturnNull");
+       String s = "";
+        int i = 0;
+        if(i<1){
+           
+        String expResult = null;
+        String result = CPD4414Assignment1TechConnect.stringPower(s, i);
+       
+        assertEquals(expResult, result);
+         
+        } 
+        
+        
+        
+     }
+     
+        // Test Created by Ruturaj Kalal.
+     
+      @Test 
+       public void testStringAndOneShouldReturnString(){
+           System.out.println("testStringAndOneShouldReturnString");
+        String str = "bob";
+        int i = 1;
+        String expResult = "bob";
+        String result = CPD4414Assignment1TechConnect.stringPower(str, i);
+        assertEquals(expResult, result);
+       }
     
 }
