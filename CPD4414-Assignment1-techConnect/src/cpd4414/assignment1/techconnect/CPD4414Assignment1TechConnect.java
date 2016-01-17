@@ -25,7 +25,14 @@ public class CPD4414Assignment1TechConnect {
     public static String stringPower(String str, int number){
         String power = "";
         
+        
+        // Added by Gurvinder kaur
+                     if(str==""){
+            System.out.println("Empty String");
+            power = str;
+        } 
         return power;
+        
     }
     
 }
