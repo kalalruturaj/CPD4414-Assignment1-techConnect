@@ -78,5 +78,17 @@ public class CPD4414Assignment1TechConnectTest {
         String result = CPD4414Assignment1TechConnect.stringPower(str, i);
         assertEquals(expResult, result);
        }
+       
+        // Test Created by Cyril Dsouza.
+     
+      @Test 
+       public void testStringAndTwoShouldReturnStringDoubled(){
+           System.out.println("testStringAndTwoShouldReturnStringDoubled");
+        String str = "bob";
+        int i = 2;
+        String expResult = "bobbob";
+        String result = CPD4414Assignment1TechConnect.stringPower(str, i);
+        assertEquals(expResult, result);
+       }
     
 }
